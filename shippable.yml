@@ -6,8 +6,7 @@ node_js:
   - "0.12"
 
 branches:
-  only:
-    - post-ci
+  except:
     - "#include"
     - custom_image
 env:
