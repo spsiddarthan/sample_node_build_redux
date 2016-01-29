@@ -12,8 +12,8 @@ env:
   matrix:
     - M1=ONE
 
-#services:
- #  - mysql
+services:
+   - mysql2
    
   
 build:
