@@ -3,7 +3,7 @@ language: node_js
 
 # Version number
 node_js:
-  - "0.12"
+  -  0.12
 
 env:
   global:
@@ -19,13 +19,13 @@ branches:
 
  
 build:
- # pre_ci:
-  #  - docker build -t=shippabledocker/shiphitchcock2_sample_node .
+  pre_ci:
+    - docker build -t=shippabledocker/shiphitchcock2_sample_node .
 
   pre_ci_boot:
     image_name: shippabledocker/shiphitchcock2_sample_node
     image_tag: latest
-    pull: true
+    pull: false
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
 
   ci:
@@ -38,7 +38,7 @@ build:
 
 integrations:
   hub:
-    - integrationName: ship-docker
+    - integrationName: ship-docker1
       type: docker
       branches:
         only:
