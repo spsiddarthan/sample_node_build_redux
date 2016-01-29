@@ -12,10 +12,10 @@ env:
   matrix:
     - M1=ONE
 
-services:
-  - mysql
+#services:
+ # - mysql
   #- postgressss
-  - "mongo"
+  #- "mongo"
   
 build:
  # pre_ci:
