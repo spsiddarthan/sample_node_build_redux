@@ -14,25 +14,24 @@ env:
 
 services:
    - mysql
-   - postgressss
-   - "mongo"
+   
   
 build:
  # pre_ci:
  #   - docker build -t=shippabledocker/sample_node .
 
-  pre_ci_boot:
-    image_name: shippabledocker/shiphitchcock2_sample_node
-    image_tag: latest
-    pull: true
-    options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
+  #pre_ci_boot:
+   # image_name: shippabledocker/shiphitchcock2_sample_node
+    #image_tag: latest
+    #pull: true
+    #options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
 
   ci:
     - ps -eax
     - ls -al
 
   post_ci:
-    - docker push shippabledocker/shiphitchcock2_sample_node_custom
+    - docker push shippabledocker/shiphitchcock2_sample_node
 
 integrations:
   hub:
