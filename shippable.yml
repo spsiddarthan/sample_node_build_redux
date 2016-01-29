@@ -20,7 +20,8 @@ build:
  # pre_ci:
  #   - docker build -t=shippabledocker/sample_node .
 
-  pre_ci_boot: drydock/u12nod
+  pre_ci_boot: 
+    image_name: drydock/u12nod
     image_tag: prod
     pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
