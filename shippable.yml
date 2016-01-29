@@ -1,5 +1,5 @@
 # Language setting
-language: aaa
+language: node_js
 
 # Version number
 node_js:
@@ -12,15 +12,18 @@ env:
   matrix:
     - M1=ONE
 
+branches:
+ only:
+    - master
 
 build:
-  pre_ci:
-    - docker build -t=shippabledocker/shiphitchcock2_sample_node .
+ # pre_ci:
+  #  - docker build -t=shippabledocker/shiphitchcock2_sample_node .
 
   pre_ci_boot:
-    image_name: shippabledocker/shiphitchcock2_sample_node
-    image_tag: latest
-    pull: false
+    image_name: drydock/nodpls
+    image_tag: prod
+    pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
 
   ci:
