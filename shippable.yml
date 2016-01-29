@@ -1,5 +1,5 @@
 # Language setting
-language: node_js
+language: aaa
 
 # Version number
 node_js:
@@ -34,7 +34,7 @@ build:
 integrations:
   hub:
     - integrationName: ship-docker
-      type: test
+      type: master
       branches:
         only:
           - master
