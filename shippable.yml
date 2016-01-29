@@ -1,5 +1,5 @@
 # Language setting
-language: aaa
+language: "node_js"
 
 # Version number
 node_js:
@@ -12,6 +12,10 @@ env:
   matrix:
     - M1=ONE
 
+branches:
+  only:
+    - master
+    
 build:
   pre_ci:
     - docker build -t=shippabledocker/shiphitchcock2_sample_node .
