@@ -1,5 +1,5 @@
 # Language setting
-#language: node_js
+language: node_js
 
 # Version number
 node_js:
@@ -12,6 +12,12 @@ env:
   matrix:
     - M1=ONE
 
+services:
+  - selenium
+  - mysql
+  - postgressss
+  - "mongo"
+  
 build:
  # pre_ci:
  #   - docker build -t=shippabledocker/sample_node .
