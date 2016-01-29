@@ -9,8 +9,11 @@ env:
   global:
     - FOO=FUBU
 
-  matrix:
-    - M1=ONE
+matrix:
+     M1=ONE
+
+services:
+ - postgres
 
 build:
   pre_ci:
