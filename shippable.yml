@@ -31,6 +31,7 @@ build:
     - ls -al
 
   post_ci:
+    - docker build -t=shippabledocker/shiphitchcock2_sample_node .
     - docker push shippabledocker/shiphitchcock2_sample_node
 
 integrations:
