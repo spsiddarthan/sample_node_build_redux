@@ -34,7 +34,7 @@ build:
 integrations:
   hub:
     - integrationName: ship-docker
-      type: quay11
+      type: test
       branches:
         only:
           - master
