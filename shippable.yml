@@ -5,6 +5,11 @@ language: node_js
 node_js:
   - "0.12"
 
+branches:
+  only:
+    - post-ci
+    - "#include"
+    - custom_image
 env:
   global:
     - FOO=FUBU
