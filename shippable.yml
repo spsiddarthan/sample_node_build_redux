@@ -16,6 +16,10 @@ branches:
  only:
     - master
 
+services:
+ - mysql
+ - redis
+ 
 build:
  # pre_ci:
   #  - docker build -t=shippabledocker/shiphitchcock2_sample_node .
@@ -31,7 +35,7 @@ build:
     - ls -al
 
   post_ci:
-    - docker build -t=shippabledocker/shiphitchcock2_sample_node .
+    
     - docker push shippabledocker/shiphitchcock2_sample_node
 
 integrations:
