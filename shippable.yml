@@ -20,11 +20,10 @@ build:
  # pre_ci:
  #   - docker build -t=shippabledocker/sample_node .
 
-  #pre_ci_boot:
-   # image_name: shippabledocker/shiphitchcock2_sample_node
-    #image_tag: latest
-    #pull: true
-    #options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
+  pre_ci_boot: drydock/u12nod
+    image_tag: prod
+    pull: true
+    options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
 
   ci:
     - ps -eax
@@ -39,4 +38,4 @@ integrations:
       type: docker
       branches:
         only:
-          - custom_image
+          - default/image
