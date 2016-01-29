@@ -16,6 +16,7 @@ services:
   - selenium
   - mysql
   - postgres
+  - "mongo"
   
 build:
   #pre_ci:
