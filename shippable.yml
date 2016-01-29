@@ -34,7 +34,7 @@ build:
 integrations:
   hub:
     - integrationName: ship-docker
-      type: master
+      type: docker
       branches:
         only:
           - master
