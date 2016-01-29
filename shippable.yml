@@ -13,7 +13,7 @@ env:
     - M1=ONE
 
 branches:
-  only:
+  except:
     - master
     
 build:
