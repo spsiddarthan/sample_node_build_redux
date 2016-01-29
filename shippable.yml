@@ -4,15 +4,16 @@ language: node_js
 # Version number
 node_js:
   - "0.12"
+  - 5.0
 
 services:
   - mysql2
   - "redis"
  
-branches:
-  except:
-    - post-ci
-    - "#include"
+#branches:
+ # except:
+  #  - post-ci
+   # - "#include"
 env:
   global:
     - FOO=FUBU
