@@ -16,9 +16,7 @@ branches:
  only:
     - master
 
-services:
- - mysql
- - redis
+
  
 build:
  # pre_ci:
