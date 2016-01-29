@@ -10,7 +10,7 @@ services:
   - "redis"
  
 branches:
-  only:
+  except:
     - post-ci
     - "#include"
 env:
