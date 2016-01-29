@@ -13,9 +13,8 @@ env:
     - M1=ONE
 
 services:
-  - selenium
   - mysql
-  - postgressss
+  #- postgressss
   - "mongo"
   
 build:
