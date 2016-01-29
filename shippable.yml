@@ -14,6 +14,7 @@ matrix:
 
 services:
   - postgres
+  - cassandra
 
 build:
   pre_ci:
