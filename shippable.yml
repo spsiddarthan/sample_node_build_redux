@@ -14,8 +14,8 @@ env:
 
 services:
    - mysql
-  #- postgressss
-  #- "mongo"
+   - postgressss
+   - "mongo"
   
 build:
  # pre_ci:
