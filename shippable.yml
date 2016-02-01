@@ -9,8 +9,8 @@ node_js:
 env:
  global:
     - secure: WAlXsst8PT8KjBKWSUvmR1I/F/h96IKWGOylUmBYS31MzHiDXNipF1/iSY7ayHWZna1OpFG/hPeqCrB+TIxAtHT3Xvk6QgYdI8dEb/EA9sqQC8FEEeRFEAxhQi6dXnHTV7q4gnpxmI85tdSbobR2ZUVxDc+OPG8uel8i6lrn7JkkX9l/2tKcF4+CJwrKWkuFMcDLViWXVHSHMi+6tG2VgTrpmKh3Pvm2htQ5bQSEDVHAeGwt7h1O6yW9rVR/nugIC1jAHjkyiNiOTUewz1JWV64WJH5cwmobmHzMSzL/jF97+MUUp0PhGV2rHLMfvVwGLFBSaU0ey/gv4DPovycoRg== 
-
-matrix:
+ matrix:
+    - secure: oT9bkjrF0oFSd0/8KSUugmEyg995KFyqZX2cnRWC/TStk8S9h3Mkdh9BSK8V18WvApUAYs5TD/zbX8MXtA8iLSIPHytHDOGasBkNY4JZCoEpRxnuAWR2+XH48TeGg3hvwzxEiqx0wmHJqNptaXsHBi7e/z1bx/xhjHBu0ryVX1j1WjgQ+9jjNAFtswVAC2p9dbDksZUXBMiMtMCayVI59U9CTnU8JpAh7Tq+zUmEdiILQd7S1h67qNI2FCis5skWlYk6HkzvrzzO/diohGs9+oqZKuOPvJO3gVn2F4Mpbz8UbnCzI3iSM/Gtnaqmk8zaqRMrSH0aH0d75hUJ/6b5Aw== 
     - M1=ONE
 
 
@@ -27,7 +27,7 @@ build:
   ci:
     - ps -eax
     - ls -al
-    - echo $key1
+    - echo $key1 and $key2 and $key3
 
   post_ci:
     - docker push shippabledocker/sample_node
