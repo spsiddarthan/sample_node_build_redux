@@ -10,14 +10,15 @@ node_js:
 
 
 env:
-  global:
-    - secure: JnNbD+Uya4vtBVTsbGcL5rR9NR6TEWKRoxISLPCfuPkjtWTYcmmBtqWGuX7s47w4Eva1PU88lURbnZ+xQyevYQu9Gfk+HgWGoz0fH16KFczjSPQOBDluCh4o6SDBWaL5E5NK61cE9RqLH1McIqs4+j4UXhK1k0zjYqPAwxAwrZqqHcZV/Xg6zkM8ePsaBHbj3C+cw9ZqLqyDs9zhoHETrOergxX7wpe52jswmKLUQZa0wTe/YFFDRu4k14cfOgHv1czKI6teHqhyiQ4niH6CNqZCYs4w9wrJUNLuuZCvathPPp1BNnUIrO7xPV0xiv0Iq/sxOTUL1WDbS/MY62RiuQ== 
-    - secure: Oj5ganX3ZtSOSi0nwaDSXgim4NTZkjSqKwYBm5rycV50BvzoaOrJPr4/TnuXScDUYRZuqr/kYppRLEzJ5ZKOjkAZ8Mt5URhFeFVFmZp0TvHRG/K0MDBlVkRGuNqi/zgI9aIUYpC8hE+XD87pE/dGBuBpBn/5dAyW6DRDhA8afvuaPEiwXjvA/Kie8X3toO9S9EJUHUmgxPxlppWP7vfA3l3uRb4N+OY8AQGDCGvcr7KeJEvypRoJZq4/LbpZVFB8HgZqCJyRbu/eCmqG7Cz0fldwjerXmyoK/DCl8jx3a9X3PEMkJpgS3wMPQ5O47Dfj7maFrJgXfLK2ocKfotNiAw==
+  - secure: nclZpJPzaSRWlEkv9JUTO+OV9RdQGfEK5/rLz9YxS5f2qXELn1zS2RCevaYcF0oPak4INY7oXOIHl9I2gdW3bIPQqSTEmv0NL1a6ihg3Wrhfx9w3AywcZMgiDdEajJI3ufgLcRpjj0TNdGHhHJ0d/Nei73pq+G/HN86admga/fHSQO17kVaAKniw29wVxJY2tI7uB0IxjmRLlOJOgmjwdoJhMYgkvbdiY1ymwt9LnyS+TGm6qm7/FQxPOXdnn9YR+JSGEAy6kh5pB+CW8tIYKnKEkG8M92qteHGY/qEYz4q5gA+4Bkstj2zrO9jXJmojdem/mzCg/LM+39t28w659Q== 
+#  global:
+ #   - secure: JnNbD+Uya4vtBVTsbGcL5rR9NR6TEWKRoxISLPCfuPkjtWTYcmmBtqWGuX7s47w4Eva1PU88lURbnZ+xQyevYQu9Gfk+HgWGoz0fH16KFczjSPQOBDluCh4o6SDBWaL5E5NK61cE9RqLH1McIqs4+j4UXhK1k0zjYqPAwxAwrZqqHcZV/Xg6zkM8ePsaBHbj3C+cw9ZqLqyDs9zhoHETrOergxX7wpe52jswmKLUQZa0wTe/YFFDRu4k14cfOgHv1czKI6teHqhyiQ4niH6CNqZCYs4w9wrJUNLuuZCvathPPp1BNnUIrO7xPV0xiv0Iq/sxOTUL1WDbS/MY62RiuQ== 
+  #  - secure: Oj5ganX3ZtSOSi0nwaDSXgim4NTZkjSqKwYBm5rycV50BvzoaOrJPr4/TnuXScDUYRZuqr/kYppRLEzJ5ZKOjkAZ8Mt5URhFeFVFmZp0TvHRG/K0MDBlVkRGuNqi/zgI9aIUYpC8hE+XD87pE/dGBuBpBn/5dAyW6DRDhA8afvuaPEiwXjvA/Kie8X3toO9S9EJUHUmgxPxlppWP7vfA3l3uRb4N+OY8AQGDCGvcr7KeJEvypRoJZq4/LbpZVFB8HgZqCJyRbu/eCmqG7Cz0fldwjerXmyoK/DCl8jx3a9X3PEMkJpgS3wMPQ5O47Dfj7maFrJgXfLK2ocKfotNiAw==
 #- secure: WAlXsst8PT8KjBKWSUvmR1I/F/h96IKWGOylUmBYS31MzHiDXNipF1/iSY7ayHWZna1OpFG/hPeqCrB+TIxAtHT3Xvk6QgYdI8dEb/EA9sqQC8FEEeRFEAxhQi6dXnHTV7q4gnpxmI85tdSbobR2ZUVxDc+OPG8uel8i6lrn7JkkX9l/2tKcF4+CJwrKWkuFMcDLViWXVHSHMi+6tG2VgTrpmKh3Pvm2htQ5bQSEDVHAeGwt7h1O6yW9rVR/nugIC1jAHjkyiNiOTUewz1JWV64WJH5cwmobmHzMSzL/jF97+MUUp0PhGV2rHLMfvVwGLFBSaU0ey/gv4DPovycoRg==
-    - M2=two
-  matrix: 
-    - M1=ONE
-    - secure: GzNXBbBAPM7tvqKMCQR2uUwnymc00QwaUyBwFOv7PIibiN3b/hdzysq03+/k0PsWoWm+9dOIs1N+Vq6p253NTacoMjb8KaAQVaqugkrq7YOJsc40HD+edn/Pk489axloYUcG3ImmO6GIreiYThI4aZAlwc29jcQu8tmvP3fNlkVk6Juz7SojU3XvF8zQqkpw3Oko9OeXSekedwdmw7e5iJlccMCqLvzjWg3/Ej1Nv5Q69xHMC6S6eaeHWpDFgOIggImT4nyNqbh5uiNMQLfJd4GZk1pcB270m8D8mzyt4tRSQBK/aEgegtSp4//OqSLVa+eUvr4uTHpTzTr0FbToIg== 
+   # - M2=two
+  #matrix: 
+   # - M1=ONE
+    #- secure: GzNXBbBAPM7tvqKMCQR2uUwnymc00QwaUyBwFOv7PIibiN3b/hdzysq03+/k0PsWoWm+9dOIs1N+Vq6p253NTacoMjb8KaAQVaqugkrq7YOJsc40HD+edn/Pk489axloYUcG3ImmO6GIreiYThI4aZAlwc29jcQu8tmvP3fNlkVk6Juz7SojU3XvF8zQqkpw3Oko9OeXSekedwdmw7e5iJlccMCqLvzjWg3/Ej1Nv5Q69xHMC6S6eaeHWpDFgOIggImT4nyNqbh5uiNMQLfJd4GZk1pcB270m8D8mzyt4tRSQBK/aEgegtSp4//OqSLVa+eUvr4uTHpTzTr0FbToIg== 
 #    - secure: FrdpikFHyJeJ5O1vMzWkvRobTYbpaRos1DKGmEc2VEMKBljiZNCuJuL20jdccLwapABAQUCf3jrZqdrabF8rVy0p+ROAaCJSs8K6izt2xjqQzYMXDoMKysPwbem+8xvoFTQA6eytkK9c5iASEM5cIs7AwJXZc7zNQsg4Pb7zRAtkzXQMg1xSM4+zhCfvTlajS1znHAqM3Yhdjnurm4xrY5nwBw1I2+41QlL5GRN0338YP67qtEYZVUg4OIHJ5CEnzM680qAI/d5M1ANoSg56Vef7MMzXfvubd3P8YE8NL4xxpax8d2WJS/0l7TF55JXblY++FDaIQK5oS4MZ+/i85w== 
     
 services:
@@ -35,7 +36,7 @@ build:
     - echo $M2 and $M1
     - echo $invalid_env and $splchars
     - echo $foo
-
+    - echo $key4
 
   #post_ci:
    # - docker commit $SHIPPABLE_CONTAINER_NAME shippabledocker/shiphitchcock2_sample_node
