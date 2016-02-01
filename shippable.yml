@@ -15,6 +15,7 @@ services:
   #  - post-ci
    # - "#include"
 env:
+  - secure: EwEzqqHV/WTcIef4IbhMvkkKQ0pauC4CG3gSTc33Ie0hWHXS163r7JQJQt4GtuXgV8P5FtJhIIDDTN8AeX1dxtVHKXtB4z9VLm4DcZuLkmz+a7mAytr8gtsv5Il17EnQmY1JJIOBkrWGZLHZ9NQOOsLO9K/k2VsfSULGQ5QiuFLE5rKV9Y7DI248BtAxD1xP/7k+gNGlAeOWYlVwviH3L1VoIAWHsKoT6d1g3bluKhW5ldOa0+MDDTM5Fvyuo1znRYVChKVF0VJSJBBTXzEf+kjkcLVQL3PVEPC8rm/c3XgeQ2cykB2yppz0ADUZwowcXWhmcN45tPRy/==  #invalid
   - secure: Cwkokjpv9OSQ0c+V2z5mvRAY1ARRWIJzUIYGGlaqqacOcsZchhRLutlbSKOzCPZ5Adh7WKpK0aDKk+XUTegj/hfWVVAcNQEb9fKbAOs3EMJrngb0Xo3QHgW7adtULrXGIkzA+h83HjNDe/Ucczc+9Arb/BgmoL6N63OOUem7iWzNTiM9tLo6Ff7jeFcR23Riqg5beIrtyAMRUnquUqOVm247Nxbler1DiumrsRAhcOqN+Rd7FJWLmq+BN5h5ezoUNgsHEi4XlExrak5MT0ox/tNPGAhoxcIbwy0n3DfV3s15oEMjZkxEtjufUDS9iHf/HdMCCnA87LRS5n/NFJSIfg== 
  
 
@@ -32,6 +33,7 @@ build:
     - ps -eax
     - ls -al
     - echo $key2
+    - echo $foo_key
   post_ci:
     - docker build -t=shippabledocker/shiphitchcock2_sample_node .
     - docker push shippabledocker/shiphitchcock2_sample_node
