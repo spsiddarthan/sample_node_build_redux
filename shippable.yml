@@ -14,6 +14,7 @@ env:
   matrix:
     - secure: iGF5Qql5gB5qoZ2fBY4C4Q4Dy08YMVijXomMJ3LtX/CjMvYgoBWfC4s1S1CwI8UxfnME69romLjm7sgon6XvzLqAHAAbHp1iRPa9uYsnXqb2IO62WltFWbGQH28XI67qWd2ZcX5kneSEhpAdX/bhVT2tF37NseJcvwq9Z9UbhHg6uuSFU6n1tcaJu4IEFdwX89C+da+P+WQLNE6eua9rI4un0NfXebWcWvYYOSRZuGSEGOHfyU0QHr5Xc1XHMEvD60IGbz+L/blTWxR7IUWkF6sjnQ9tHwMdy0DOjALZYXoh/BSfQzHw3j8u8mUKqvbKTkdZb5KFW4LMpGddL+iSVQ== 
     - M1=ONE
+    - secure: mH7hd4trToW2lcLYUwBY77nKznwMacUa6ByBx0FbJ+4/DXk4Y6pT2xln6uLTyOYx1Hi5SHN07eqJOaAhskLtaEIO6fQsmEFHuYrzU5o5JFGZrLYOQTRXOjLbJCh6/c/ZOPGcay//n3OD7bezPvuXt4PgmVUyCZyfds5OuPqUeY03iZLcTUiWUFzQdqVB9JUBeLTV2dBmxAHZoUCELngTwAP0pCrygdSq7MjtRf71dRLgo++sfeqaYiWziUwW/LQRZlyrvzb7DfuZH2lIWowZwUcUanpsEiG4eLnwbjrHRg/zW7NAuJ15a82qWgsjXM2HN9RfnV5egxsfN+4n12uCgA== 
 
 
 build:
@@ -29,10 +30,10 @@ build:
   ci:
     - ps -eax
     - ls -al
-    - echo $key5 and $key6
+    - echo $key5 and $key6 and $key7
 
-  post_ci:
-    - docker push shippabledocker/shiphitchcock2_sample_node_custom
+#  #post_ci:
+ #   - docker push shippabledocker/shiphitchcock2_sample_node_custom
 
 integrations:
   hub:
