@@ -1,15 +1,18 @@
 # Language setting
-#language: node_js
+language: node_js
 
 # Version number
 node_js:
   - "0.12"
   - 0.10.25
  
-branches:
- only:
-   - "default/image"
-   - "default2"
+env:
+  global:
+   - FOO=FUBU
+  matrix:
+   - M1=ONE
+   - M2=two
+   - M3=three
    
 services:
    - mysql
