@@ -37,9 +37,9 @@ build:
     - echo $foo
 
 
-  post_ci:
-    - docker commit $SHIPPABLE_CONTAINER_NAME shippabledocker/shiphitchcock2_sample_node
-    - docker push shippabledocker/shiphitchcock2_sample_node
+  #post_ci:
+   # - docker commit $SHIPPABLE_CONTAINER_NAME shippabledocker/shiphitchcock2_sample_node
+    #- docker push shippabledocker/shiphitchcock2_sample_node
 
 integrations:
   hub:
