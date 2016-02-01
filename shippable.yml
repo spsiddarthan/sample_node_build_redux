@@ -1,7 +1,5 @@
 # Language setting
-language: 
-   - java
-   - node_js
+language: node_js
 
 # Version number
 node_js:
