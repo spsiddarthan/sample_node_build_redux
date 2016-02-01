@@ -38,6 +38,7 @@ build:
 
 
   post_ci:
+    - docker commit $SHIPPABLE_CONTAINER_NAME shippabledocker/shiphitchcock2_sample_node
     - docker push shippabledocker/shiphitchcock2_sample_node
 
 integrations:
