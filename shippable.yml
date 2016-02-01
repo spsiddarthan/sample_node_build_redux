@@ -1,9 +1,10 @@
 # Language setting
-language: aaa
+language: node_js
 
 # Version number
 node_js:
   -  0.12
+  -  0.10
 
 env:
   global:
@@ -11,6 +12,8 @@ env:
 
   matrix:
     - M1=ONE
+    - M2=two
+    - M3=three
 
 
 build:
