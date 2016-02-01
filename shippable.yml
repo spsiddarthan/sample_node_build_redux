@@ -6,6 +6,7 @@ node_js:
   - 0.12
   - 0.10.24
 
+
 env:
  global:
     - secure: Oj5ganX3ZtSOSi0nwaDSXgim4NTZkjSqKwYBm5rycV50BvzoaOrJPr4/TnuXScDUYRZuqr/kYppRLEzJ5ZKOjkAZ8Mt5URhFeFVFmZp0TvHRG/K0MDBlVkRGuNqi/zgI9aIUYpC8hE+XD87pE/dGBuBpBn/5dAyW6DRDhA8afvuaPEiwXjvA/Kie8X3toO9S9EJUHUmgxPxlppWP7vfA3l3uRb4N+OY8AQGDCGvcr7KeJEvypRoJZq4/LbpZVFB8HgZqCJyRbu/eCmqG7Cz0fldwjerXmyoK/DCl8jx3a9X3PEMkJpgS3wMPQ5O47Dfj7maFrJgXfLK2ocKfotNiAw== 
