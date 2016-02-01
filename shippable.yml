@@ -14,7 +14,7 @@ matrix:
     - M1=ONE
 
 services:
-  - postgresaaaaa
+  - postgres
   - cassandra
 
 build:
