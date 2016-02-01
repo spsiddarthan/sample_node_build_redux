@@ -5,8 +5,6 @@ language: node_js
 node_js:
   - 0.10.25
   - 4.2.0
-  - 5
-  - 0.12
 
 branches:
   except:
@@ -14,11 +12,9 @@ branches:
     - "#include"
     
 env:
-  global:
-    - FOO=FUBU
-
-  matrix:
-    - M1=ONE
+ - secure: WNqe9GkRV15pX8SG8VqmmiuQngjXYBowPcUFdqsAsN7pS2U0LUT0QX4vL+OwbfzxnU+5tRBEfX22aD8Q7Q9Yp9Ou9m4xk5I911kUMUuotIm5jEtAdLEBmD48JrIgQNdT7zdVfShnaHmqBjJevMlxHpxCfle7+pF9cKHKw3K1CIpunvZ6Az/rt46favBCVTTSjpc8ezl7lGa/Rd9/j2pAtV5oIinZOM9mDzSTbsd3D7blBiSpPIOigT03147qMnvILjjBryACzp18Py5fFJcpkEduGyiLTQg4J1XDyBTZ7bv8QN+L4Szp2aSKXowkYSjmZiqKBxTvaQkAnCAPewdz9w== 
+ 
+  
 
 services:
   - selenium
@@ -39,6 +35,7 @@ build:
   ci:
     - ps -eax
     - ls -al
+    - echo $key1
 
  # post_ci:
   #  - docker push shippabledocker/sample_node
