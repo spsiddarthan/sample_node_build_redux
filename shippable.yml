@@ -7,8 +7,7 @@ node_js:
   - 0.10.24
 
 env:
-  global:
-     -  FOO=FUBU
+  - secure: WAlXsst8PT8KjBKWSUvmR1I/F/h96IKWGOylUmBYS31MzHiDXNipF1/iSY7ayHWZna1OpFG/hPeqCrB+TIxAtHT3Xvk6QgYdI8dEb/EA9sqQC8FEEeRFEAxhQi6dXnHTV7q4gnpxmI85tdSbobR2ZUVxDc+OPG8uel8i6lrn7JkkX9l/2tKcF4+CJwrKWkuFMcDLViWXVHSHMi+6tG2VgTrpmKh3Pvm2htQ5bQSEDVHAeGwt7h1O6yW9rVR/nugIC1jAHjkyiNiOTUewz1JWV64WJH5cwmobmHzMSzL/jF97+MUUp0PhGV2rHLMfvVwGLFBSaU0ey/gv4DPovycoRg== 
 
 matrix:
     - M1=ONE
@@ -30,6 +29,7 @@ build:
   ci:
     - ps -eax
     - ls -al
+    - echo $key1
 
   post_ci:
     - docker push shippabledocker/sample_node
