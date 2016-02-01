@@ -28,7 +28,7 @@ build:
    # - docker build -t=shippabledocker/sample_node .
 
   pre_ci_boot:
-    image_name: drydock/u12nodall
+    image_name: drydock/u12nodpls
     image_tag: prod
     pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
@@ -36,7 +36,7 @@ build:
   ci:
     - ps -eax
     - ls -al
-    - echo $key1
+    - echo $key1 and $key2
 
  # post_ci:
   #  - docker push shippabledocker/sample_node
