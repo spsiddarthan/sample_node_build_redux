@@ -16,8 +16,7 @@ services:
    # - "#include"
 env:
   - secure: Cwkokjpv9OSQ0c+V2z5mvRAY1ARRWIJzUIYGGlaqqacOcsZchhRLutlbSKOzCPZ5Adh7WKpK0aDKk+XUTegj/hfWVVAcNQEb9fKbAOs3EMJrngb0Xo3QHgW7adtULrXGIkzA+h83HjNDe/Ucczc+9Arb/BgmoL6N63OOUem7iWzNTiM9tLo6Ff7jeFcR23Riqg5beIrtyAMRUnquUqOVm247Nxbler1DiumrsRAhcOqN+Rd7FJWLmq+BN5h5ezoUNgsHEi4XlExrak5MT0ox/tNPGAhoxcIbwy0n3DfV3s15oEMjZkxEtjufUDS9iHf/HdMCCnA87LRS5n/NFJSIfg== 
-  matrix:
-    - M1=one
+ 
 
 build:
  # pre_ci:
