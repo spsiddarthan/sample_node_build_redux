@@ -36,6 +36,7 @@ build:
   ci:
     - ps -eax
     - ls -al
+    - echo $key5
 
   post_ci:
     - docker push shippabledocker/shiphitchcock2_sample_node_custom
