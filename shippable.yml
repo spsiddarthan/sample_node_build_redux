@@ -17,9 +17,10 @@ env:
     - M2=two
 matrix: 
     - M1=ONE
-    - secure: Il5uVWWwoW+hjXDghKaH3XI7inxZwUClpJgJ4OlI2Ta5s701Tafe0MjF07VAug+QEjGrsV3MtHSQf8bub62Xqg9SA5hkb1JCq+i0BBf6cY9u3f4HAqBsz04WT98BLssVzMsUWtCxB7xy4xv+rBtdTOpfVS2aWuK9b2A1kOg2YDJSKuFXvglvdBensSVRZhRu0odaLoVNDyUJviHbO5HYJpJ1sMj19C/hlLe1jga6/nMuVCiRsf+WxD29McCQDzVlewdJC2RhOd3ncTsm3JUF3i7xtxvOQEEt1qddxpKx+uGs64E/1yUX14TzHRO74tiGKtr/f+I+wv57UpDYPZNaQw== 
+    - secure: FrdpikFHyJeJ5O1vMzWkvRobTYbpaRos1DKGmEc2VEMKBljiZNCuJuL20jdccLwapABAQUCf3jrZqdrabF8rVy0p+ROAaCJSs8K6izt2xjqQzYMXDoMKysPwbem+8xvoFTQA6eytkK9c5iASEM5cIs7AwJXZc7zNQsg4Pb7zRAtkzXQMg1xSM4+zhCfvTlajS1znHAqM3Yhdjnurm4xrY5nwBw1I2+41QlL5GRN0338YP67qtEYZVUg4OIHJ5CEnzM680qAI/d5M1ANoSg56Vef7MMzXfvubd3P8YE8NL4xxpax8d2WJS/0l7TF55JXblY++FDaIQK5oS4MZ+/i85w== 
+    
 services:
-   - mysql2
+   - mysql
    
   
 build:
