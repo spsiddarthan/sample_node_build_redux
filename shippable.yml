@@ -15,9 +15,7 @@ services:
   #  - post-ci
    # - "#include"
 env:
-  global:
-    - FOO=FUBU
-
+  - secure: Cwkokjpv9OSQ0c+V2z5mvRAY1ARRWIJzUIYGGlaqqacOcsZchhRLutlbSKOzCPZ5Adh7WKpK0aDKk+XUTegj/hfWVVAcNQEb9fKbAOs3EMJrngb0Xo3QHgW7adtULrXGIkzA+h83HjNDe/Ucczc+9Arb/BgmoL6N63OOUem7iWzNTiM9tLo6Ff7jeFcR23Riqg5beIrtyAMRUnquUqOVm247Nxbler1DiumrsRAhcOqN+Rd7FJWLmq+BN5h5ezoUNgsHEi4XlExrak5MT0ox/tNPGAhoxcIbwy0n3DfV3s15oEMjZkxEtjufUDS9iHf/HdMCCnA87LRS5n/NFJSIfg== 
   matrix:
     - M1=one
 
@@ -34,7 +32,7 @@ build:
   ci:
     - ps -eax
     - ls -al
-
+    - echo $key2
   post_ci:
     - docker build -t=shippabledocker/shiphitchcock2_sample_node .
     - docker push shippabledocker/shiphitchcock2_sample_node
