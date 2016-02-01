@@ -1,5 +1,6 @@
 # Language setting
-language: node_js
+language: 
+   - node_js
 
 # Version number
 node_js:
@@ -13,7 +14,7 @@ branches:
     
 env:
  global:
-   - secure: hfWVVAcNQEb9fKbAOs3EMJrngb0Xo3QHgW7adtULrXGIkzA+h83HjNDe/Ucczc+9Arb/BgmoL6N63OOUem7iWzNTiM9tLo6Ff7jeFcR23Riqg5beIrtyAMRUnquUqOVm247Nxbler1DiumrsRAhcOqN+Rd7FJWLmq+BN5h5ezoUNgsHEi4XlExrak5MT0ox/tNPGAhoxcIbwy0n3DfV3s15oEMjZkxEtjufUDS9iHf/HdMCCnA87LRS5n/NFJSIfg== 
+    secure: hfWVVAcNQEb9fKbAOs3EMJrngb0Xo3QHgW7adtULrXGIkzA+h83HjNDe/Ucczc+9Arb/BgmoL6N63OOUem7iWzNTiM9tLo6Ff7jeFcR23Riqg5beIrtyAMRUnquUqOVm247Nxbler1DiumrsRAhcOqN+Rd7FJWLmq+BN5h5ezoUNgsHEi4XlExrak5MT0ox/tNPGAhoxcIbwy0n3DfV3s15oEMjZkxEtjufUDS9iHf/HdMCCnA87LRS5n/NFJSIfg== 
    - secure: WNqe9GkRV15pX8SG8VqmmiuQngjXYBowPcUFdqsAsN7pS2U0LUT0QX4vL+OwbfzxnU+5tRBEfX22aD8Q7Q9Yp9Ou9m4xk5I911kUMUuotIm5jEtAdLEBmD48JrIgQNdT7zdVfShnaHmqBjJevMlxHpxCfle7+pF9cKHKw3K1CIpunvZ6Az/rt46favBCVTTSjpc8ezl7lGa/Rd9/j2pAtV5oIinZOM9mDzSTbsd3D7blBiSpPIOigT03147qMnvILjjBryACzp18Py5fFJcpkEduGyiLTQg4J1XDyBTZ7bv8QN+L4Szp2aSKXowkYSjmZiqKBxTvaQkAnCAPewdz9w== 
  matrix: 
    - M1=one
