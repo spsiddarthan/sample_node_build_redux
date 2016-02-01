@@ -17,7 +17,8 @@ env:
     - M2=two
 matrix: 
     - M1=ONE
-    - secure: FrdpikFHyJeJ5O1vMzWkvRobTYbpaRos1DKGmEc2VEMKBljiZNCuJuL20jdccLwapABAQUCf3jrZqdrabF8rVy0p+ROAaCJSs8K6izt2xjqQzYMXDoMKysPwbem+8xvoFTQA6eytkK9c5iASEM5cIs7AwJXZc7zNQsg4Pb7zRAtkzXQMg1xSM4+zhCfvTlajS1znHAqM3Yhdjnurm4xrY5nwBw1I2+41QlL5GRN0338YP67qtEYZVUg4OIHJ5CEnzM680qAI/d5M1ANoSg56Vef7MMzXfvubd3P8YE8NL4xxpax8d2WJS/0l7TF55JXblY++FDaIQK5oS4MZ+/i85w== 
+    - secure: GzNXBbBAPM7tvqKMCQR2uUwnymc00QwaUyBwFOv7PIibiN3b/hdzysq03+/k0PsWoWm+9dOIs1N+Vq6p253NTacoMjb8KaAQVaqugkrq7YOJsc40HD+edn/Pk489axloYUcG3ImmO6GIreiYThI4aZAlwc29jcQu8tmvP3fNlkVk6Juz7SojU3XvF8zQqkpw3Oko9OeXSekedwdmw7e5iJlccMCqLvzjWg3/Ej1Nv5Q69xHMC6S6eaeHWpDFgOIggImT4nyNqbh5uiNMQLfJd4GZk1pcB270m8D8mzyt4tRSQBK/aEgegtSp4//OqSLVa+eUvr4uTHpTzTr0FbToIg== 
+#    - secure: FrdpikFHyJeJ5O1vMzWkvRobTYbpaRos1DKGmEc2VEMKBljiZNCuJuL20jdccLwapABAQUCf3jrZqdrabF8rVy0p+ROAaCJSs8K6izt2xjqQzYMXDoMKysPwbem+8xvoFTQA6eytkK9c5iASEM5cIs7AwJXZc7zNQsg4Pb7zRAtkzXQMg1xSM4+zhCfvTlajS1znHAqM3Yhdjnurm4xrY5nwBw1I2+41QlL5GRN0338YP67qtEYZVUg4OIHJ5CEnzM680qAI/d5M1ANoSg56Vef7MMzXfvubd3P8YE8NL4xxpax8d2WJS/0l7TF55JXblY++FDaIQK5oS4MZ+/i85w== 
     
 services:
    - mysql
@@ -33,6 +34,7 @@ build:
     - echo $key1 and $key2 and $key3
     - echo $M2 and $M1
     - echo $invalid_env and $splchars
+    - echo $foo
 
 
   post_ci:
